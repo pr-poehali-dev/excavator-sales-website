@@ -110,32 +110,41 @@ const Index = () => {
           <div className="absolute bottom-0 left-0 w-96 h-96 bg-lonking-yellow rounded-full blur-3xl"></div>
         </div>
         <div className="container mx-auto px-4 relative z-10">
-          <div className="max-w-3xl">
-            <Badge className="mb-4 bg-lonking-yellow text-lonking-black hover:bg-yellow-600">
-              Официальный дилер LONKING
-            </Badge>
-            <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
-              Экскаваторы-погрузчики <span className="text-lonking-yellow">LONKING 83C и 84C</span>
-            </h1>
-            <p className="text-xl md:text-2xl text-gray-300 mb-8">
-              Надежная строительная техника с превосходным соотношением цены и качества
-            </p>
-            <div className="flex flex-wrap gap-4">
-              <Button 
-                size="lg"
-                onClick={() => document.getElementById('models')?.scrollIntoView({ behavior: 'smooth' })}
-                className="bg-lonking-yellow hover:bg-yellow-600 text-lonking-black font-semibold text-lg"
-              >
-                Выбрать модель
-              </Button>
-              <Button 
-                size="lg"
-                variant="outline"
-                onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
-                className="border-lonking-yellow text-white hover:bg-lonking-yellow hover:text-lonking-black font-semibold text-lg"
-              >
-                Связаться с нами
-              </Button>
+          <div className="grid md:grid-cols-2 gap-8 items-center">
+            <div>
+              <Badge className="mb-4 bg-lonking-yellow text-lonking-black hover:bg-yellow-600">
+                Официальный дилер LONKING
+              </Badge>
+              <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
+                Экскаваторы-погрузчики <span className="text-lonking-yellow">LONKING 83C и 84C</span>
+              </h1>
+              <p className="text-xl md:text-2xl text-gray-300 mb-8">
+                Надежная строительная техника с превосходным соотношением цены и качества
+              </p>
+              <div className="flex flex-wrap gap-4">
+                <Button 
+                  size="lg"
+                  onClick={() => document.getElementById('models')?.scrollIntoView({ behavior: 'smooth' })}
+                  className="bg-lonking-yellow hover:bg-yellow-600 text-lonking-black font-semibold text-lg"
+                >
+                  Выбрать модель
+                </Button>
+                <Button 
+                  size="lg"
+                  variant="outline"
+                  onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
+                  className="border-lonking-yellow text-white hover:bg-lonking-yellow hover:text-lonking-black font-semibold text-lg"
+                >
+                  Связаться с нами
+                </Button>
+              </div>
+            </div>
+            <div className="hidden md:block">
+              <img 
+                src="https://cdn.poehali.dev/files/4f1f66fc-9754-4719-86bb-62eed1b092a5.png" 
+                alt="LONKING экскаваторы-погрузчики" 
+                className="w-full h-auto object-contain"
+              />
             </div>
           </div>
         </div>
