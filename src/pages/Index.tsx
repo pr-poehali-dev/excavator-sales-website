@@ -151,11 +151,11 @@ const Index = () => {
           <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
             {models.map((model, index) => (
               <Card key={index} className="overflow-hidden hover:shadow-2xl transition-shadow duration-300">
-                <div className="bg-white p-6">
+                <div className={`bg-white ${index === 0 ? 'p-2' : 'p-6'}`}>
                   <img 
                     src={model.image} 
                     alt={model.name}
-                    className={`w-full ${index === 0 ? 'h-128' : 'h-64'} object-contain mb-6`}
+                    className={`w-full ${index === 0 ? 'h-128' : 'h-64'} object-contain ${index === 0 ? 'mb-2' : 'mb-6'}`}
                   />
                 </div>
                 <CardHeader>
