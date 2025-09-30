@@ -28,7 +28,7 @@ const Index = () => {
   const models = [
     {
       name: 'LONKING 83C',
-      image: '/img/72eff983-22fd-455b-b3b8-62d09deffaef.jpg',
+      image: 'https://cdn.poehali.dev/files/1e635995-a816-4fcc-9d0c-9c8e8ac207d8.png',
       specs: [
         { label: 'Эксплуатационная масса', value: '7 500 кг' },
         { label: 'Мощность двигателя', value: '74 кВт и 100 л.с.' },
