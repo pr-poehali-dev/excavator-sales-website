@@ -239,6 +239,135 @@ const Index = () => {
         </div>
       </section>
 
+      <section className="py-16 md:py-24 bg-gradient-to-br from-lonking-yellow via-yellow-500 to-lonking-yellow">
+        <div className="container mx-auto px-4">
+          <div className="max-w-5xl mx-auto">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl md:text-4xl font-bold mb-4 text-lonking-black">Выгодные условия финансирования</h2>
+              <p className="text-lg text-gray-800">Приобретите технику LONKING в лизинг или рассрочку с минимальными переплатами</p>
+            </div>
+
+            <div className="grid md:grid-cols-3 gap-6 mb-8">
+              <Card className="bg-white border-2 border-lonking-black hover:shadow-2xl transition-shadow">
+                <CardHeader>
+                  <div className="w-16 h-16 bg-lonking-black rounded-full flex items-center justify-center mb-4 mx-auto">
+                    <Icon name="Percent" size={32} className="text-lonking-yellow" />
+                  </div>
+                  <CardTitle className="text-2xl text-center">Лизинг</CardTitle>
+                </CardHeader>
+                <CardContent className="text-center">
+                  <div className="mb-4">
+                    <p className="text-4xl font-bold text-lonking-black mb-2">от 7%</p>
+                    <p className="text-gray-600">годовых</p>
+                  </div>
+                  <ul className="text-left space-y-2 text-gray-700">
+                    <li className="flex items-start gap-2">
+                      <Icon name="Check" size={20} className="text-green-600 mt-0.5 flex-shrink-0" />
+                      <span>Первый взнос от 10%</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <Icon name="Check" size={20} className="text-green-600 mt-0.5 flex-shrink-0" />
+                      <span>Срок до 5 лет</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <Icon name="Check" size={20} className="text-green-600 mt-0.5 flex-shrink-0" />
+                      <span>Техника в собственности</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <Icon name="Check" size={20} className="text-green-600 mt-0.5 flex-shrink-0" />
+                      <span>Налоговые льготы</span>
+                    </li>
+                  </ul>
+                </CardContent>
+              </Card>
+
+              <Card className="bg-white border-2 border-lonking-black hover:shadow-2xl transition-shadow">
+                <CardHeader>
+                  <div className="w-16 h-16 bg-lonking-black rounded-full flex items-center justify-center mb-4 mx-auto">
+                    <Icon name="CreditCard" size={32} className="text-lonking-yellow" />
+                  </div>
+                  <CardTitle className="text-2xl text-center">Рассрочка</CardTitle>
+                </CardHeader>
+                <CardContent className="text-center">
+                  <div className="mb-4">
+                    <p className="text-4xl font-bold text-lonking-black mb-2">0%</p>
+                    <p className="text-gray-600">переплаты</p>
+                  </div>
+                  <ul className="text-left space-y-2 text-gray-700">
+                    <li className="flex items-start gap-2">
+                      <Icon name="Check" size={20} className="text-green-600 mt-0.5 flex-shrink-0" />
+                      <span>Без первого взноса</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <Icon name="Check" size={20} className="text-green-600 mt-0.5 flex-shrink-0" />
+                      <span>До 12 месяцев</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <Icon name="Check" size={20} className="text-green-600 mt-0.5 flex-shrink-0" />
+                      <span>Быстрое оформление</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <Icon name="Check" size={20} className="text-green-600 mt-0.5 flex-shrink-0" />
+                      <span>Минимум документов</span>
+                    </li>
+                  </ul>
+                </CardContent>
+              </Card>
+
+              <Card className="bg-white border-2 border-lonking-black hover:shadow-2xl transition-shadow">
+                <CardHeader>
+                  <div className="w-16 h-16 bg-lonking-black rounded-full flex items-center justify-center mb-4 mx-auto">
+                    <Icon name="Banknote" size={32} className="text-lonking-yellow" />
+                  </div>
+                  <CardTitle className="text-2xl text-center">Trade-in</CardTitle>
+                </CardHeader>
+                <CardContent className="text-center">
+                  <div className="mb-4">
+                    <p className="text-4xl font-bold text-lonking-black mb-2">+15%</p>
+                    <p className="text-gray-600">к выкупу</p>
+                  </div>
+                  <ul className="text-left space-y-2 text-gray-700">
+                    <li className="flex items-start gap-2">
+                      <Icon name="Check" size={20} className="text-green-600 mt-0.5 flex-shrink-0" />
+                      <span>Обмен старой техники</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <Icon name="Check" size={20} className="text-green-600 mt-0.5 flex-shrink-0" />
+                      <span>Оценка за 1 день</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <Icon name="Check" size={20} className="text-green-600 mt-0.5 flex-shrink-0" />
+                      <span>Любое состояние</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <Icon name="Check" size={20} className="text-green-600 mt-0.5 flex-shrink-0" />
+                      <span>Доплата + скидка</span>
+                    </li>
+                  </ul>
+                </CardContent>
+              </Card>
+            </div>
+
+            <div className="bg-white rounded-xl p-8 border-2 border-lonking-black">
+              <div className="flex flex-col md:flex-row items-center justify-between gap-6">
+                <div className="flex-1">
+                  <h3 className="text-2xl font-bold mb-3 text-lonking-black">Рассчитайте ежемесячный платеж</h3>
+                  <p className="text-gray-700 text-lg">Наш специалист подберет оптимальную программу финансирования и подготовит индивидуальное предложение</p>
+                </div>
+                <Button 
+                  size="lg"
+                  onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
+                  className="bg-lonking-black hover:bg-gray-800 text-lonking-yellow font-semibold text-lg px-8 flex-shrink-0"
+                >
+                  <Icon name="Calculator" size={20} className="mr-2" />
+                  Получить расчет
+                </Button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section id="contact" className="py-16 md:py-24 bg-lonking-gray">
         <div className="container mx-auto px-4">
           <div className="max-w-2xl mx-auto">
