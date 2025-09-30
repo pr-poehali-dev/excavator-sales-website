@@ -41,7 +41,7 @@ const Index = () => {
     },
     {
       name: 'LONKING 84C',
-      image: '/img/c5283b4c-b39b-4cee-b058-53a0703881b0.jpg',
+      image: 'https://cdn.poehali.dev/files/b46c9bf5-a5c2-4a32-8e22-827bc5307901.png',
       specs: [
         { label: 'Эксплуатационная масса', value: '8 500 кг' },
         { label: 'Мощность двигателя', value: '92 кВт и 125 л.с.' },
