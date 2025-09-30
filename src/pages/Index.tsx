@@ -31,7 +31,7 @@ const Index = () => {
       image: '/img/72eff983-22fd-455b-b3b8-62d09deffaef.jpg',
       specs: [
         { label: 'Эксплуатационная масса', value: '7 500 кг' },
-        { label: 'Мощность двигателя', value: '74 кВт / 100 л.с.' },
+        { label: 'Мощность двигателя', value: '74 кВт и 100 л.с.' },
         { label: 'Глубина копания', value: '4 500 мм' },
         { label: 'Высота выгрузки', value: '2 800 мм' },
         { label: 'Объем ковша погрузчика', value: '1,0 м³' },
@@ -44,7 +44,7 @@ const Index = () => {
       image: '/img/c5283b4c-b39b-4cee-b058-53a0703881b0.jpg',
       specs: [
         { label: 'Эксплуатационная масса', value: '8 500 кг' },
-        { label: 'Мощность двигателя', value: '92 кВт / 125 л.с.' },
+        { label: 'Мощность двигателя', value: '92 кВт и 125 л.с.' },
         { label: 'Глубина копания', value: '5 200 мм' },
         { label: 'Высота выгрузки', value: '3 200 мм' },
         { label: 'Объем ковша погрузчика', value: '1,2 м³' },
@@ -115,7 +115,7 @@ const Index = () => {
               Официальный дилер LONKING
             </Badge>
             <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
-              Экскаваторы-погрузчики <span className="text-lonking-yellow">LONKING 83C/84C</span>
+              Экскаваторы-погрузчики <span className="text-lonking-yellow">LONKING 83C и 84C</span>
             </h1>
             <p className="text-xl md:text-2xl text-gray-300 mb-8">
               Надежная строительная техника с превосходным соотношением цены и качества
