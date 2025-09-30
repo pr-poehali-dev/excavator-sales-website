@@ -155,7 +155,7 @@ const Index = () => {
                   <img 
                     src={model.image} 
                     alt={model.name}
-                    className="w-full h-64 object-contain mb-6"
+                    className={`w-full ${index === 0 ? 'h-128' : 'h-64'} object-contain mb-6`}
                   />
                 </div>
                 <CardHeader>
