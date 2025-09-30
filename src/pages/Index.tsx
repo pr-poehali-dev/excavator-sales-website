@@ -93,7 +93,7 @@ const Index = () => {
         <div className="container mx-auto px-4 flex items-center justify-between">
           <div className="flex items-center gap-3">
             <img src="https://cdn.poehali.dev/files/d9de8a4d-a9fc-4a80-900f-ec30f88df564.png" alt="LONKING" className="h-9 md:h-10" />
-            <div className="hidden md:block text-sm text-gray-300">Официальный дилер</div>
+            <div className="hidden md:block text-sm text-gray-300">Официальный дилер в РФ</div>
           </div>
           <Button 
             onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
