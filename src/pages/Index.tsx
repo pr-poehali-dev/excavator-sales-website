@@ -142,7 +142,7 @@ const Index = () => {
                   onClick={() => document.getElementById('models')?.scrollIntoView({ behavior: 'smooth' })}
                   className="bg-lonking-yellow hover:bg-yellow-600 text-lonking-black font-semibold text-lg"
                 >
-                  Выбрать модель
+                  Получить каталог
                 </Button>
                 <Button 
                   size="lg"
