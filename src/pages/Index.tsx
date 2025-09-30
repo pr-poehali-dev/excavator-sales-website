@@ -92,7 +92,7 @@ const Index = () => {
       <header className="bg-lonking-black text-white py-4 sticky top-0 z-50 shadow-lg">
         <div className="container mx-auto px-4 flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <img src="https://cdn.poehali.dev/files/d9de8a4d-a9fc-4a80-900f-ec30f88df564.png" alt="LONKING" className="h-9 md:h-10 -mt-1" />
+            <img src="https://cdn.poehali.dev/files/d9de8a4d-a9fc-4a80-900f-ec30f88df564.png" alt="LONKING" className="h-9 md:h-10 -mt-2" />
             <div className="hidden md:block text-sm text-gray-300">Официальный дилер в РФ</div>
           </div>
           <Button 
