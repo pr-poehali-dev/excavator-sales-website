@@ -92,7 +92,7 @@ const Index = () => {
       <header className="bg-lonking-black text-white py-4 sticky top-0 z-50 shadow-lg">
         <div className="container mx-auto px-4 flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <div className="text-lonking-yellow font-bold text-2xl">LONKING</div>
+            <img src="https://cdn.poehali.dev/files/3382cca1-67af-41b7-a857-68dca93938f5.png" alt="LONKING" className="h-8 md:h-10" />
             <div className="hidden md:block text-sm text-gray-300">Официальный дилер</div>
           </div>
           <Button 
@@ -284,7 +284,7 @@ const Index = () => {
       <footer className="bg-lonking-black text-white py-8">
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-            <div className="text-lonking-yellow font-bold text-2xl">LONKING</div>
+            <img src="https://cdn.poehali.dev/files/3382cca1-67af-41b7-a857-68dca93938f5.png" alt="LONKING" className="h-8" />
             <div className="text-gray-400 text-sm text-center md:text-right">
               <p>Официальный дилер экскаваторов-погрузчиков LONKING</p>
               <p className="mt-1">© 2025 Все права защищены</p>
