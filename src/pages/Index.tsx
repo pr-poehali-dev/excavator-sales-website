@@ -155,7 +155,7 @@ const Index = () => {
                 </Button>
               </div>
             </div>
-            <div className="hidden md:block" style={{ transform: 'translateY(10px)' }}>
+            <div className="hidden md:block" style={{ transform: 'translateY(35px)' }}>
               <img 
                 src="https://cdn.poehali.dev/files/4f1f66fc-9754-4719-86bb-62eed1b092a5.png" 
                 alt="LONKING экскаваторы-погрузчики" 
