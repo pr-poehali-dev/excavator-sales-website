@@ -176,7 +176,7 @@ const Index = () => {
 
           <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
             {models.map((model, index) => (
-              <Card key={index} className="overflow-hidden hover:shadow-2xl transition-shadow duration-300">
+              <Card key={index} className="overflow-hidden hover:shadow-2xl transition-all duration-500 animate-fade-up opacity-0" style={{ animationDelay: `${index * 200}ms`, animationFillMode: 'forwards' }}>
                 <div className="bg-white p-6">
                   <img 
                     src={model.image} 
