@@ -180,35 +180,44 @@ const Index = () => {
               </div>
             </div>
             
-            <div className="bg-lonking-yellow/20 border-2 border-lonking-yellow rounded-xl p-6 backdrop-blur-sm">
-              <div className="flex items-center gap-2 mb-3">
-                <Icon name="Clock" size={24} className="text-lonking-yellow" />
-                <h3 className="text-xl font-bold text-white">Специальное предложение заканчивается через:</h3>
+            <div className="relative hidden md:block">
+              <div className="absolute inset-0 z-0" style={{ transform: 'translateY(35px) translateX(-10px) scale(1.5)' }}>
+                <img 
+                  src="https://cdn.poehali.dev/files/4f1f66fc-9754-4719-86bb-62eed1b092a5.png" 
+                  alt="LONKING экскаваторы-погрузчики" 
+                  className="w-full h-auto object-contain opacity-30"
+                />
               </div>
-              <div className="grid grid-cols-4 gap-4">
-                <div className="text-center">
-                  <div className="bg-lonking-black/80 rounded-lg p-3 mb-2">
-                    <span className="text-3xl font-bold text-lonking-yellow">{timeLeft.days}</span>
-                  </div>
-                  <span className="text-sm text-gray-300">дней</span>
+              <div className="relative z-10 bg-lonking-yellow/20 border-2 border-lonking-yellow rounded-xl p-6 backdrop-blur-sm">
+                <div className="flex items-center gap-2 mb-3">
+                  <Icon name="Clock" size={24} className="text-lonking-yellow" />
+                  <h3 className="text-xl font-bold text-white">Специальное предложение заканчивается через:</h3>
                 </div>
-                <div className="text-center">
-                  <div className="bg-lonking-black/80 rounded-lg p-3 mb-2">
-                    <span className="text-3xl font-bold text-lonking-yellow">{timeLeft.hours}</span>
+                <div className="grid grid-cols-4 gap-4">
+                  <div className="text-center">
+                    <div className="bg-lonking-black/80 rounded-lg p-3 mb-2">
+                      <span className="text-3xl font-bold text-lonking-yellow">{timeLeft.days}</span>
+                    </div>
+                    <span className="text-sm text-gray-300">дней</span>
                   </div>
-                  <span className="text-sm text-gray-300">часов</span>
-                </div>
-                <div className="text-center">
-                  <div className="bg-lonking-black/80 rounded-lg p-3 mb-2">
-                    <span className="text-3xl font-bold text-lonking-yellow">{timeLeft.minutes}</span>
+                  <div className="text-center">
+                    <div className="bg-lonking-black/80 rounded-lg p-3 mb-2">
+                      <span className="text-3xl font-bold text-lonking-yellow">{timeLeft.hours}</span>
+                    </div>
+                    <span className="text-sm text-gray-300">часов</span>
                   </div>
-                  <span className="text-sm text-gray-300">минут</span>
-                </div>
-                <div className="text-center">
-                  <div className="bg-lonking-black/80 rounded-lg p-3 mb-2">
-                    <span className="text-3xl font-bold text-lonking-yellow">{timeLeft.seconds}</span>
+                  <div className="text-center">
+                    <div className="bg-lonking-black/80 rounded-lg p-3 mb-2">
+                      <span className="text-3xl font-bold text-lonking-yellow">{timeLeft.minutes}</span>
+                    </div>
+                    <span className="text-sm text-gray-300">минут</span>
                   </div>
-                  <span className="text-sm text-gray-300">секунд</span>
+                  <div className="text-center">
+                    <div className="bg-lonking-black/80 rounded-lg p-3 mb-2">
+                      <span className="text-3xl font-bold text-lonking-yellow">{timeLeft.seconds}</span>
+                    </div>
+                    <span className="text-sm text-gray-300">секунд</span>
+                  </div>
                 </div>
               </div>
             </div>
