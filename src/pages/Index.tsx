@@ -145,14 +145,6 @@ const Index = () => {
                 >
                   Получить каталог
                 </Button>
-                <Button 
-                  size="lg"
-                  variant="outline"
-                  onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
-                  className="border-lonking-yellow text-white hover:bg-lonking-yellow hover:text-lonking-black font-semibold text-lg"
-                >
-                  Связаться с нами
-                </Button>
               </div>
             </div>
             <div className="hidden md:block" style={{ transform: 'translateY(35px) translateX(-10px) scale(1.5)' }}>
