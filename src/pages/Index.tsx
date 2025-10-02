@@ -33,7 +33,7 @@ const Index = () => {
         { label: 'Эксплуатационная масса', value: '8 600 кг' },
         { label: 'Двигатель', value: 'Weichai WP4G100E220' },
         { label: 'Мощность двигателя', value: '74 кВТ (100 л.с.)' },
-        { label: 'Мосты и КПП', value: 'CARRARO/LONKING' },
+        { label: 'Мосты и КПП', value: 'CARRARO или LONKING' },
         { label: 'Глубина копания', value: '4318 мм/5519 мм' },
         { label: 'Высота выгрузки', value: '2 800 мм' },
         { label: 'Объем ковша погрузчика', value: '1,0 м³' },
