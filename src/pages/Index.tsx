@@ -31,7 +31,7 @@ const Index = () => {
       image: 'https://cdn.poehali.dev/files/e424b542-9420-4b32-8fc1-48952f8d036e.png',
       specs: [
         { label: 'Эксплуатационная масса', value: '8 600 кг' },
-        { label: 'Двигатель', value: 'Weichai WP4G100E220' },
+        { label: 'Двигатель', value: 'Weichai WP4G100E220/Perkins 1104D‐44TA' },
         { label: 'Мощность двигателя', value: '74 кВТ (100 л.с.)' },
         { label: 'Мосты и КПП', value: 'CARRARO или LONKING' },
         { label: 'Глубина копания', value: '4318 мм/5519 мм' },
