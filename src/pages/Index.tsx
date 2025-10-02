@@ -98,7 +98,7 @@ const Index = () => {
     {
       icon: 'Zap',
       title: 'Высокая производительность',
-      description: 'Мощные двигатели Cummins/Perkins и прогрессивная гидравлика Bosch Rexroth для максимальной эффективности работы'
+      description: 'Мощные двигатели Weichai/Perkins и прогрессивная гидравлика Bosch Rexroth для максимальной эффективности работы'
     },
     {
       icon: 'DollarSign',
