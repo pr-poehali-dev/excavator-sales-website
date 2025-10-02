@@ -243,7 +243,7 @@ const Index = () => {
                   />
                 </div>
                 <CardHeader>
-                  <CardTitle className="text-2xl flex items-center gap-3 -mt-1">
+                  <CardTitle className="text-3xl flex items-center gap-3 -mt-1">
                     <img src="https://cdn.poehali.dev/files/2feebb4a-3661-494a-9215-1fead6d39534.png" alt="" className="w-8 h-8 object-contain" />
                     <span className="font-extrabold">{model.name}</span>
                   </CardTitle>
