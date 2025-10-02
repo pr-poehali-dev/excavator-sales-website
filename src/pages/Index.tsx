@@ -188,7 +188,7 @@ const Index = () => {
                   className="w-full h-auto object-contain opacity-100"
                 />
               </div>
-              <div className="relative z-10 bg-lonking-yellow/20 border-2 border-lonking-yellow rounded-xl p-6 backdrop-blur-sm">
+              <div className="relative z-10 bg-lonking-yellow/20 border-2 border-lonking-yellow rounded-xl p-6 backdrop-blur-sm" style={{ transform: 'translateY(30px)' }}>
                 <div className="flex items-center gap-2 mb-3">
                   <Icon name="Clock" size={24} className="text-lonking-yellow" />
                   <h3 className="text-xl font-bold text-white">Специальное предложение заканчивается через:</h3>
