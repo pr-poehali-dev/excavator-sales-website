@@ -473,6 +473,135 @@ const Index = () => {
         </div>
       </section>
 
+      <section className="py-16 md:py-24 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl md:text-4xl font-bold mb-4">Запись на тест-драйв</h2>
+              <p className="text-gray-600 text-lg">Протестируйте технику в реальных условиях перед покупкой</p>
+            </div>
+
+            <div className="grid md:grid-cols-2 gap-8">
+              <div className="space-y-6">
+                <div className="bg-lonking-gray rounded-xl p-6">
+                  <div className="flex items-start gap-4">
+                    <div className="w-12 h-12 bg-lonking-yellow rounded-full flex items-center justify-center flex-shrink-0">
+                      <Icon name="ClipboardCheck" size={24} className="text-lonking-black" />
+                    </div>
+                    <div>
+                      <h3 className="font-bold text-lg mb-2">Что включает тест-драйв?</h3>
+                      <ul className="space-y-2 text-gray-700">
+                        <li className="flex items-start gap-2">
+                          <Icon name="Check" size={18} className="text-lonking-yellow mt-0.5 flex-shrink-0" />
+                          <span>Управление техникой под руководством инструктора</span>
+                        </li>
+                        <li className="flex items-start gap-2">
+                          <Icon name="Check" size={18} className="text-lonking-yellow mt-0.5 flex-shrink-0" />
+                          <span>Тестирование всех функций и режимов работы</span>
+                        </li>
+                        <li className="flex items-start gap-2">
+                          <Icon name="Check" size={18} className="text-lonking-yellow mt-0.5 flex-shrink-0" />
+                          <span>Проверка на вашем объекте (при наличии)</span>
+                        </li>
+                        <li className="flex items-start gap-2">
+                          <Icon name="Check" size={18} className="text-lonking-yellow mt-0.5 flex-shrink-0" />
+                          <span>Консультация по эксплуатации и обслуживанию</span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="bg-lonking-gray rounded-xl p-6">
+                  <div className="flex items-start gap-4">
+                    <div className="w-12 h-12 bg-lonking-yellow rounded-full flex items-center justify-center flex-shrink-0">
+                      <Icon name="MapPin" size={24} className="text-lonking-black" />
+                    </div>
+                    <div>
+                      <h3 className="font-bold text-lg mb-2">Где проходит?</h3>
+                      <p className="text-gray-700">Тест-драйв можно организовать:</p>
+                      <ul className="mt-2 space-y-1 text-gray-700">
+                        <li>• На нашей демо-площадке</li>
+                        <li>• На вашем объекте</li>
+                        <li>• На нейтральной территории</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="bg-lonking-yellow/10 border-2 border-lonking-yellow rounded-xl p-6">
+                  <div className="flex items-center gap-3 mb-3">
+                    <Icon name="Gift" size={28} className="text-lonking-yellow" />
+                    <h3 className="font-bold text-lg">Бонус за тест-драйв</h3>
+                  </div>
+                  <p className="text-gray-700">Скидка 50 000 ₽ при покупке техники в течение 7 дней после тест-драйва!</p>
+                </div>
+              </div>
+
+              <Card className="border-2 border-lonking-yellow">
+                <CardHeader>
+                  <CardTitle className="text-2xl">Записаться на тест-драйв</CardTitle>
+                  <CardDescription>Заполните форму, и мы свяжемся с вами для согласования времени и места</CardDescription>
+                </CardHeader>
+                <CardContent>
+                  <form onSubmit={handleSubmit} className="space-y-4">
+                    <div>
+                      <Input
+                        placeholder="Ваше имя"
+                        value={formData.name}
+                        onChange={(e) => setFormData({ ...formData, name: e.target.value })}
+                        required
+                        className="border-gray-300 focus:border-lonking-yellow"
+                      />
+                    </div>
+                    <div>
+                      <Input
+                        type="tel"
+                        placeholder="Телефон"
+                        value={formData.phone}
+                        onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
+                        required
+                        className="border-gray-300 focus:border-lonking-yellow"
+                      />
+                    </div>
+                    <div>
+                      <Input
+                        type="email"
+                        placeholder="Email"
+                        value={formData.email}
+                        onChange={(e) => setFormData({ ...formData, email: e.target.value })}
+                        required
+                        className="border-gray-300 focus:border-lonking-yellow"
+                      />
+                    </div>
+                    <div>
+                      <select 
+                        className="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:border-lonking-yellow"
+                        value={formData.message}
+                        onChange={(e) => setFormData({ ...formData, message: e.target.value })}
+                        required
+                      >
+                        <option value="">Выберите модель для тест-драйва</option>
+                        <option value="LONKING 83C">LONKING 83C</option>
+                        <option value="LONKING 84C">LONKING 84C</option>
+                        <option value="LONKING CDM833">LONKING CDM833</option>
+                        <option value="Не определился">Не определился с моделью</option>
+                      </select>
+                    </div>
+                    <Button 
+                      type="submit" 
+                      className="w-full bg-lonking-yellow hover:bg-yellow-600 text-lonking-black font-semibold text-lg h-12"
+                    >
+                      Записаться на тест-драйв
+                    </Button>
+                  </form>
+                </CardContent>
+              </Card>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section id="contact" className="py-16 md:py-24 bg-lonking-gray">
         <div className="container mx-auto px-4">
           <div className="max-w-2xl mx-auto">
