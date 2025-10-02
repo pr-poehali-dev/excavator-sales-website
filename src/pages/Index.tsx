@@ -181,7 +181,7 @@ const Index = () => {
             </div>
             
             <div className="relative hidden md:block">
-              <div className="absolute inset-0 z-0" style={{ transform: 'translateY(-5px) translateX(-10px) scale(1.5)' }}>
+              <div className="absolute inset-0 z-0" style={{ transform: 'translateY(-35px) translateX(-10px) scale(1.5)' }}>
                 <img 
                   src="https://cdn.poehali.dev/files/4f1f66fc-9754-4719-86bb-62eed1b092a5.png" 
                   alt="LONKING экскаваторы-погрузчики" 
