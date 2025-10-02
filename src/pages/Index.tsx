@@ -157,7 +157,7 @@ const Index = () => {
       <section className="relative bg-cover bg-center text-white py-20 md:py-32 overflow-hidden" style={{ backgroundImage: 'url(https://cdn.poehali.dev/files/101c0a41-9e25-4298-8ba6-ca605c79d633.jpg)' }}>
         <div className="absolute inset-0 bg-black/50"></div>
         <div className="container mx-auto px-4 relative z-10">
-          <div className="grid md:grid-cols-2 gap-8 items-center">
+          <div className="grid md:grid-cols-2 gap-8 items-start">
             <div>
               <Badge className="mb-4 bg-lonking-yellow text-lonking-black hover:bg-yellow-600">
                 Официальный дилер LONKING
@@ -168,39 +168,6 @@ const Index = () => {
               <p className="text-xl md:text-2xl text-gray-300 mb-8">
                 Надежная строительная техника с превосходным соотношением цены и качества
               </p>
-              
-              <div className="bg-lonking-yellow/20 border-2 border-lonking-yellow rounded-xl p-6 mb-8 backdrop-blur-sm">
-                <div className="flex items-center gap-2 mb-3">
-                  <Icon name="Clock" size={24} className="text-lonking-yellow" />
-                  <h3 className="text-xl font-bold text-white">Специальное предложение заканчивается через:</h3>
-                </div>
-                <div className="grid grid-cols-4 gap-4">
-                  <div className="text-center">
-                    <div className="bg-lonking-black/80 rounded-lg p-3 mb-2">
-                      <span className="text-3xl font-bold text-lonking-yellow">{timeLeft.days}</span>
-                    </div>
-                    <span className="text-sm text-gray-300">дней</span>
-                  </div>
-                  <div className="text-center">
-                    <div className="bg-lonking-black/80 rounded-lg p-3 mb-2">
-                      <span className="text-3xl font-bold text-lonking-yellow">{timeLeft.hours}</span>
-                    </div>
-                    <span className="text-sm text-gray-300">часов</span>
-                  </div>
-                  <div className="text-center">
-                    <div className="bg-lonking-black/80 rounded-lg p-3 mb-2">
-                      <span className="text-3xl font-bold text-lonking-yellow">{timeLeft.minutes}</span>
-                    </div>
-                    <span className="text-sm text-gray-300">минут</span>
-                  </div>
-                  <div className="text-center">
-                    <div className="bg-lonking-black/80 rounded-lg p-3 mb-2">
-                      <span className="text-3xl font-bold text-lonking-yellow">{timeLeft.seconds}</span>
-                    </div>
-                    <span className="text-sm text-gray-300">секунд</span>
-                  </div>
-                </div>
-              </div>
 
               <div className="flex flex-wrap gap-4">
                 <Button 
@@ -212,12 +179,38 @@ const Index = () => {
                 </Button>
               </div>
             </div>
-            <div className="hidden md:block" style={{ transform: 'translateY(35px) translateX(-10px) scale(1.5)' }}>
-              <img 
-                src="https://cdn.poehali.dev/files/4f1f66fc-9754-4719-86bb-62eed1b092a5.png" 
-                alt="LONKING экскаваторы-погрузчики" 
-                className="w-full h-auto object-contain"
-              />
+            
+            <div className="bg-lonking-yellow/20 border-2 border-lonking-yellow rounded-xl p-6 backdrop-blur-sm">
+              <div className="flex items-center gap-2 mb-3">
+                <Icon name="Clock" size={24} className="text-lonking-yellow" />
+                <h3 className="text-xl font-bold text-white">Специальное предложение заканчивается через:</h3>
+              </div>
+              <div className="grid grid-cols-4 gap-4">
+                <div className="text-center">
+                  <div className="bg-lonking-black/80 rounded-lg p-3 mb-2">
+                    <span className="text-3xl font-bold text-lonking-yellow">{timeLeft.days}</span>
+                  </div>
+                  <span className="text-sm text-gray-300">дней</span>
+                </div>
+                <div className="text-center">
+                  <div className="bg-lonking-black/80 rounded-lg p-3 mb-2">
+                    <span className="text-3xl font-bold text-lonking-yellow">{timeLeft.hours}</span>
+                  </div>
+                  <span className="text-sm text-gray-300">часов</span>
+                </div>
+                <div className="text-center">
+                  <div className="bg-lonking-black/80 rounded-lg p-3 mb-2">
+                    <span className="text-3xl font-bold text-lonking-yellow">{timeLeft.minutes}</span>
+                  </div>
+                  <span className="text-sm text-gray-300">минут</span>
+                </div>
+                <div className="text-center">
+                  <div className="bg-lonking-black/80 rounded-lg p-3 mb-2">
+                    <span className="text-3xl font-bold text-lonking-yellow">{timeLeft.seconds}</span>
+                  </div>
+                  <span className="text-sm text-gray-300">секунд</span>
+                </div>
+              </div>
             </div>
           </div>
         </div>
