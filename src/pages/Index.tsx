@@ -530,7 +530,7 @@ const Index = () => {
                     <Icon name="Gift" size={28} className="text-lonking-yellow" />
                     <h3 className="font-bold text-lg">Бонус за тест-драйв</h3>
                   </div>
-                  <p className="text-gray-700">Скидка 50 000 ₽ при покупке техники в течение 7 дней после тест-драйва!</p>
+                  <p className="text-gray-700">Скидка 100 000 ₽ при покупке техники в течение 7 дней после тест-драйва!</p>
                 </div>
               </div>
 
