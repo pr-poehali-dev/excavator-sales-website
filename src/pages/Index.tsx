@@ -244,12 +244,13 @@ const Index = () => {
         </div>
       </section>
 
-      <section className="py-16 md:py-24 bg-gradient-to-br from-lonking-yellow via-yellow-500 to-lonking-yellow">
-        <div className="container mx-auto px-4">
+      <section className="py-16 md:py-24 relative bg-cover bg-center" style={{ backgroundImage: 'url(https://cdn.poehali.dev/files/66d0dcf5-1d0e-458f-bd78-81109b4588f7.jpg)' }}>
+        <div className="absolute inset-0 bg-black/40"></div>
+        <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-5xl mx-auto">
             <div className="text-center mb-12">
-              <h2 className="text-3xl md:text-4xl font-bold mb-4 text-lonking-black">Выгодные условия финансирования</h2>
-              <p className="text-lg text-gray-800">Приобретите технику LONKING в лизинг или рассрочку с минимальными переплатами</p>
+              <h2 className="text-3xl md:text-4xl font-bold mb-4 text-white">Выгодные условия финансирования</h2>
+              <p className="text-lg text-white">Приобретите технику LONKING в лизинг или рассрочку с минимальными переплатами</p>
             </div>
 
             <div className="grid md:grid-cols-3 gap-6 mb-8">
