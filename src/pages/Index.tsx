@@ -501,10 +501,6 @@ const Index = () => {
                         </li>
                         <li className="flex items-start gap-2">
                           <Icon name="Check" size={18} className="text-lonking-yellow mt-0.5 flex-shrink-0" />
-                          <span>Проверка на вашем объекте (при наличии)</span>
-                        </li>
-                        <li className="flex items-start gap-2">
-                          <Icon name="Check" size={18} className="text-lonking-yellow mt-0.5 flex-shrink-0" />
                           <span>Консультация по эксплуатации и обслуживанию</span>
                         </li>
                       </ul>
