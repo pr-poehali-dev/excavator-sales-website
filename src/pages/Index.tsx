@@ -123,11 +123,8 @@ const Index = () => {
         </div>
       </header>
 
-      <section className="relative bg-gradient-to-br from-lonking-black via-gray-900 to-lonking-black text-white py-20 md:py-32 overflow-hidden">
-        <div className="absolute inset-0 opacity-10">
-          <div className="absolute top-0 right-0 w-96 h-96 bg-lonking-yellow rounded-full blur-3xl"></div>
-          <div className="absolute bottom-0 left-0 w-96 h-96 bg-lonking-yellow rounded-full blur-3xl"></div>
-        </div>
+      <section className="relative bg-cover bg-center text-white py-20 md:py-32 overflow-hidden" style={{ backgroundImage: 'url(https://cdn.poehali.dev/files/101c0a41-9e25-4298-8ba6-ca605c79d633.jpg)' }}>
+        <div className="absolute inset-0 bg-black/50"></div>
         <div className="container mx-auto px-4 relative z-10">
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div>
