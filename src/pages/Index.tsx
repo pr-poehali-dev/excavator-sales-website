@@ -373,6 +373,106 @@ const Index = () => {
         </div>
       </section>
 
+      <section className="py-16 md:py-24 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-6xl mx-auto">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl md:text-4xl font-bold mb-4">Сервисное обслуживание</h2>
+              <p className="text-gray-600 text-lg">Профессиональный сервис и поддержка по всей России</p>
+            </div>
+
+            <div className="grid md:grid-cols-2 gap-8 mb-12">
+              <Card className="border-2 border-lonking-yellow">
+                <CardHeader>
+                  <div className="w-16 h-16 bg-lonking-yellow rounded-full flex items-center justify-center mb-4">
+                    <Icon name="Wrench" size={32} className="text-lonking-black" />
+                  </div>
+                  <CardTitle className="text-2xl">Гарантийное обслуживание</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <ul className="space-y-3 text-gray-700">
+                    <li className="flex items-start gap-2">
+                      <Icon name="Check" size={20} className="text-lonking-yellow mt-0.5 flex-shrink-0" />
+                      <span>Гарантия 12 месяцев или 2000 моточасов</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <Icon name="Check" size={20} className="text-lonking-yellow mt-0.5 flex-shrink-0" />
+                      <span>Бесплатное устранение заводских дефектов</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <Icon name="Check" size={20} className="text-lonking-yellow mt-0.5 flex-shrink-0" />
+                      <span>Выезд специалиста на место эксплуатации</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <Icon name="Check" size={20} className="text-lonking-yellow mt-0.5 flex-shrink-0" />
+                      <span>Консультации по эксплуатации 24/7</span>
+                    </li>
+                  </ul>
+                </CardContent>
+              </Card>
+
+              <Card className="border-2 border-lonking-yellow">
+                <CardHeader>
+                  <div className="w-16 h-16 bg-lonking-yellow rounded-full flex items-center justify-center mb-4">
+                    <Icon name="Package" size={32} className="text-lonking-black" />
+                  </div>
+                  <CardTitle className="text-2xl">Запасные части</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <ul className="space-y-3 text-gray-700">
+                    <li className="flex items-start gap-2">
+                      <Icon name="Check" size={20} className="text-lonking-yellow mt-0.5 flex-shrink-0" />
+                      <span>Оригинальные запчасти на складе</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <Icon name="Check" size={20} className="text-lonking-yellow mt-0.5 flex-shrink-0" />
+                      <span>Доставка по России 1-3 дня</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <Icon name="Check" size={20} className="text-lonking-yellow mt-0.5 flex-shrink-0" />
+                      <span>Конкурентные цены без посредников</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <Icon name="Check" size={20} className="text-lonking-yellow mt-0.5 flex-shrink-0" />
+                      <span>Подбор аналогов при необходимости</span>
+                    </li>
+                  </ul>
+                </CardContent>
+              </Card>
+            </div>
+
+            <div className="grid md:grid-cols-3 gap-6">
+              <div className="bg-lonking-gray rounded-xl p-6 text-center">
+                <div className="w-20 h-20 bg-lonking-yellow rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Icon name="MapPin" size={36} className="text-lonking-black" />
+                </div>
+                <h3 className="text-xl font-bold mb-2">Сервисные центры</h3>
+                <p className="text-3xl font-bold text-lonking-yellow mb-2">50+</p>
+                <p className="text-gray-600">По всей России</p>
+              </div>
+
+              <div className="bg-lonking-gray rounded-xl p-6 text-center">
+                <div className="w-20 h-20 bg-lonking-yellow rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Icon name="Clock" size={36} className="text-lonking-black" />
+                </div>
+                <h3 className="text-xl font-bold mb-2">Время реакции</h3>
+                <p className="text-3xl font-bold text-lonking-yellow mb-2">24 часа</p>
+                <p className="text-gray-600">Выезд специалиста</p>
+              </div>
+
+              <div className="bg-lonking-gray rounded-xl p-6 text-center">
+                <div className="w-20 h-20 bg-lonking-yellow rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Icon name="Users" size={36} className="text-lonking-black" />
+                </div>
+                <h3 className="text-xl font-bold mb-2">Техподдержка</h3>
+                <p className="text-3xl font-bold text-lonking-yellow mb-2">24/7</p>
+                <p className="text-gray-600">Горячая линия</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section id="contact" className="py-16 md:py-24 bg-lonking-gray">
         <div className="container mx-auto px-4">
           <div className="max-w-2xl mx-auto">
